@@ -8,6 +8,8 @@ You need to create a 'leader board' type widget on your Ducksboard dashboard fir
     ducksboard_api_key: YOUR_API_KEY
     leaderboard_widget: 12345
     project_path:       /path/to/your/project
+
+Finally, run `bundle install` and you're good to go.
     
 ### How to handle authors with different aliases
 It is wise to use a `.mailmap` file to merge committers with multiple entries in the commit list into one (e.g. "S. Jobs", "Steve Jobs" and "Steven P. Jobs" would become just "Steve Jobs"). Check out the [mailmap documentation] for the exact usage of this.
