@@ -1,5 +1,5 @@
 require 'yaml'
-require './lib/ducksboard'
+Dir[File.dirname(__FILE__) + '/lib/*.rb'].each { |file| require file }
 
 config = YAML.load_file(File.dirname(__FILE__) + '/config.yml')
 
